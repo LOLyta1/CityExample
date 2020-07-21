@@ -1,0 +1,10 @@
+package main.java
+val COLD_WEATHER_STRING = "холодно"
+val NORMAL_WEATHER_STRING = "нормально"
+val HOT_WEATHER_STRING = "жарко"
+val CATASTROPHIC_WEATHER_STRING = "катастрофа"
+val WEATHER_DESCRIPTION_STRING = "сейчас "
+val INPUT_CITY_NAME_STRING = "Введите название города: "
+val INPUT_WEATHER_DEGREE_STRING = "Введите температуру: "
+val EMPTY_INPUT_STRING = "Ошибка-Введите строку! Убедитесь, что все тестовые поля заполнены"
+val INVALID_INTEGER = "Ошибка-Введите число! Убедитесь, что все числовые поля заполнены"
