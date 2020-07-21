@@ -11,7 +11,7 @@ import kotlin.coroutines.experimental.ContinuationInterceptor
 interface City {
     var name: String
     var weatherDescription: WeatherDescription
-    fun printName()
+    fun printName(){ print(" ${name} ") }
 }
 
 
@@ -48,9 +48,6 @@ private fun createCity(
     return object : City {
         override var name: String = name
         override var weatherDescription: WeatherDescription = desc
-        override fun printName() {
-            print(" ${name} ")
-        }
     }
 }
 
